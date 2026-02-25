@@ -1,0 +1,33 @@
+# AI Agent Prototype - Dependencies
+# Cross-border E-commerce AI Agent System
+
+# LLM
+anthropic>=0.39.0          # Claude API client
+
+# Data collection
+requests>=2.31.0           # HTTP client
+playwright>=1.40.0         # Browser automation for scraping
+beautifulsoup4>=4.12.0     # HTML parsing
+lxml>=5.0.0                # Fast XML/HTML parser
+
+# Data processing
+pandas>=2.1.0              # Data manipulation
+numpy>=1.24.0              # Numerical computing
+
+# Database
+sqlalchemy>=2.0.0          # ORM
+
+# Scheduling
+apscheduler>=3.10.0        # Task scheduling
+
+# Configuration
+python-dotenv>=1.0.0       # Environment variable management
+pydantic>=2.5.0            # Data validation and settings
+
+# Utilities
+rich>=13.0.0               # Rich terminal output
+click>=8.1.0               # CLI framework
+tabulate>=0.9.0            # Table formatting
+
+# Notifications
+httpx>=0.25.0              # Async HTTP client (for webhooks)
